@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photography">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textColor="#00695C"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:text="ABOUT"
+        android:background="#999999"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView9"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#1cffffff"
+        android:layout_centerHorizontal="true"
+        android:text="         Copyright (c) 2016 ArvindSastha
+
+        Bus Tracker is an application that allows user to track buses in real time. The 'bus list' will display list of buses with last stop the bus has crossed with timestamp. The updation operation also is done by the user using 'update' section. GPS is used to check if the user updates correctly. For each correct update, the user will earn credits and that can be viewed in 'credits' section."
+         />
+
+
+</RelativeLayout>
